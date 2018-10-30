@@ -5,10 +5,10 @@ Data processing workflow and supplementary data for Handley et al. 2018 - Tempor
 Release 1.0 of this repository has been archived: 
 
 ##Contents
- - __Supplementary data__ ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data))
- 1. reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/reference_DBs))
+ - __supplementary data__ ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/tree/master/supplementary_data))
+ 1. reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/tree/master/supplementary_data/reference_DBs))
  2. adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/adapters))
- 3. SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/supplementary_data/Sample_accessions.tsv))
+ 3. SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv)
  4. R scripts used to produce the figures in the paper ([here]())
  
 
