@@ -6,10 +6,10 @@ Release 1.0 of this repository has been archived:
 
 ##Contents
  - __Supplementary data__ ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data))
-  - reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/reference_DBs))
-  - adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/adapters))
-  - SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/supplementary_data/Sample_accessions.tsv))
-  - R scripts used to produce the figures in the paper ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/R_scripts))
+ 1. reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/reference_DBs))
+ 2. adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/adapters))
+ 3. SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/supplementary_data/Sample_accessions.tsv))
+ 4. R scripts used to produce the figures in the paper ([here]())
  
 
 ##Instructions on how to set up all dependencies for data processing/analyses
