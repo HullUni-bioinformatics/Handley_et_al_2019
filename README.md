@@ -41,7 +41,7 @@ This will download the metaBEAT image (if it's not yet present on your computer)
 
 ##Data processing workflow as Jupyter notebooks
 
-Raw illumina data has been deposited with Genbank (BioProject: PRJNA414952; BioSample accession: SAMN07811461-SAMN07811580; Sequence Read Archive accessions: SRR6189420-SRR6189539) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: PRJNA482277; BioSample accession: SAMN09702179-SAMN09702568; Sequence Read Archive accessions: SRR7549714-SRR7550103) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
 
 
 With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the Jupyter notebooks that we provide for the [12S](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/12S/12S.ipynb) and [CytB](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/CytB/CytB.ipynb) datasets.
