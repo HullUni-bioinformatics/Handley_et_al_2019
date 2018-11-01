@@ -45,7 +45,7 @@ Raw illumina data has been deposited with Genbank (BioProject: [PRJNA482277](htt
 
 - Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/How_to_download_Rawdata_from_SRA.ipynb).
 - The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
-'sampleID-marker', followed by '_1' or '_2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv), marker is either '12S' or 'CytB'.
+'sampleID-marker', followed by '_1' or '_2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv), marker is either '12S' or 'Cytb'.
 
 With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the Jupyter notebooks that we provide for the [12S](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/12S/12S.ipynb) and [Cytb](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/Cytb/Cytb.ipynb) datasets.
 
