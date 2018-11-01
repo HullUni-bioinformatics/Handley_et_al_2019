@@ -7,9 +7,9 @@ Release 1.0 of this repository has been archived:
 ##Contents
  - __supplementary data__ ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/tree/master/supplementary_data))
  1. reference sequences (curated reference databases) used in analyses in Genbank format ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/tree/master/supplementary_data/reference_DBs))
- 2. adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/tree/master/supplementary_data/adapters))
+ 2. adapter sequences used for 12S fragment ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/12S-adapters.fasta))
  3. SRA accession numbers for raw Illumina data ([here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv))
- 4. R scripts used to produce the figures in the paper ([here]())
+
  
 
 ##Instructions on how to set up all dependencies for data processing/analyses
@@ -41,11 +41,13 @@ This will download the metaBEAT image (if it's not yet present on your computer)
 
 ##Data processing workflow as Jupyter notebooks
 
-Raw illumina data has been deposited with Genbank (BioProject: [PRJNA482277](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP154799); BioSample accession: SAMN09702179-SAMN09702568; Sequence Read Archive accessions: SRR7549714-SRR8135322) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/supplementary_data/Sample_accessions.tsv). Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Li_et_al_2017/blob/master/raw_reads/How_to_download_Rawdata_from_SRA.ipynb).
+Raw illumina data has been deposited with Genbank (BioProject: [PRJNA482277](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP154799); BioSample accession: SAMN09702179-SAMN09702568; Sequence Read Archive accessions: SRR7549714-SRR8135322) - see sample specific accessions [here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv). 
+
+- Before following the workflow below, you'll need to download the raw reads from SRA. To __download the raw read data__ you can follow the steps in [this Jupyter notebook](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/How_to_download_Rawdata_from_SRA.ipynb).
+- The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
+'sampleID-marker', followed by '_1' or '_2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/supplementary_data/Sample_accessions.tsv), marker is either '12S' or 'CytB'.
+
+With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the Jupyter notebooks that we provide for the [12S](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/12S/12S.ipynb) and [Cytb](https://github.com/HullUni-bioinformatics/Handley_et_al_2018/blob/master/Cytb/Cytb.ipynb) datasets.
 
 
-With the data in place you should be able to __fully rerun/reproduce our analyses__ by following the steps outlined in the Jupyter notebooks that we provide for the [12S](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/12S/12S.ipynb) and [CytB](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/CytB/CytB.ipynb) datasets.
-
-The workflow illustrated in the notebooks assumes that the raw Illumina data is present in a directory `raw_reads` at the base of the repository structure and that the files are named according to the following convention:
-'sampleID-marker', followed by '_1' or '_2' to identify the forward/reverse read file respectively. sampleID must corresponds to the first column in the file `Sample_accessions.tsv` [here](https://github.com/HullUni-bioinformatics/Haenfling_et_al_2016/blob/master/supplementary_data/Sample_accessions.tsv), marker is either '12S' or 'CytB'.
 
