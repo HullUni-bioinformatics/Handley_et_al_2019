@@ -1,6 +1,6 @@
 # Handley_et_al_2019
 
-Data processing workflow and supplementary data for Handley et al. 2018 - Temporal and spatial variation in distribution of fish environmental DNA in England’s largest lake. _bioRxiv_ DOI: ([here](http://sci-hub.tw/10.1101/376400))
+Data processing workflow and supplementary data for Handley et al. 2019 - Temporal and spatial variation in distribution of fish environmental DNA in England’s largest lake. _bioRxiv_ DOI: ([here](http://sci-hub.tw/10.1101/376400))
 
 Release 1.0 of this repository has been archived: 
 
